@@ -4,6 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   array = text.scan(/un\w+ing /)
+  puts text 
   puts array 
 end
 
